@@ -16,5 +16,12 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void cmdVisaMeddelande_Click(object sender, EventArgs e)
+        {
+            string text = textBox1.Text + textBox2.Text;
+
+           
+        }
     }
 }

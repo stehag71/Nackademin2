@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class Form1
+    partial class frmVisaTextMeddelande
     {
         /// <summary>
         /// Required designer variable.

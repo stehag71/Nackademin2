@@ -50,7 +50,7 @@ namespace Övning_2
         {
             string text = textBox1.Text;
 
-
+            StreamWriter sr = new StreamWriter();
         }
     }
 }

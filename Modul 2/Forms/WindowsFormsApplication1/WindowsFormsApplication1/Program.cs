@@ -16,7 +16,8 @@ namespace WindowsFormsApplication1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmVisaTextMeddelande());
+            //Application.Run(new frmVisaTextMeddelande());
+            Application.Run(new frmLogin());
         }
     }
 }

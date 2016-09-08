@@ -10,19 +10,21 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class frmVisaTextMeddelande : Form
+    public partial class LoggedIn : Form
     {
-        public frmVisaTextMeddelande()
+        public LoggedIn()
         {
             InitializeComponent();
         }
 
-        private void cmdVisaMeddelande_Click(object sender, EventArgs e)
-        {
-            string text = textBox1.Text + textBox2.Text;
-
-            MessageBox.Show(text);
+        private void LoggedIn_Load(object sender, EventArgs e)
+        {           
            
+        }
+
+        public void Welcome(string username)
+        {
+            lblWelcome.Text = "Welcome " + username;
         }
     }
 }
